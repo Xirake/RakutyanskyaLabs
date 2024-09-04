@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Domain\Logic\obj\**" />
+    <Compile Remove="Domain\Models\obj\**" />
+    <EmbeddedResource Remove="Domain\Logic\obj\**" />
+    <EmbeddedResource Remove="Domain\Models\obj\**" />
+    <None Remove="Domain\Logic\obj\**" />
+    <None Remove="Domain\Models\obj\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\" />
+  </ItemGroup>
+
+</Project>

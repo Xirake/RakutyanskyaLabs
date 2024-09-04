@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xirake.TaskPlanner", "Xirake.TaskPlanner.csproj", "{D0BD4206-4EF6-438C-B3AB-7C33726620BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Domain\Logic\Logic.csproj", "{00E7B2EE-FB2B-4026-A0CB-A41FFE7918A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Domain\Models\Models.csproj", "{35790505-0071-4FB1-B29C-7F36774147EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D0BD4206-4EF6-438C-B3AB-7C33726620BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD4206-4EF6-438C-B3AB-7C33726620BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD4206-4EF6-438C-B3AB-7C33726620BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD4206-4EF6-438C-B3AB-7C33726620BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00E7B2EE-FB2B-4026-A0CB-A41FFE7918A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00E7B2EE-FB2B-4026-A0CB-A41FFE7918A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00E7B2EE-FB2B-4026-A0CB-A41FFE7918A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00E7B2EE-FB2B-4026-A0CB-A41FFE7918A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35790505-0071-4FB1-B29C-7F36774147EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35790505-0071-4FB1-B29C-7F36774147EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35790505-0071-4FB1-B29C-7F36774147EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35790505-0071-4FB1-B29C-7F36774147EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E743099-3A45-4CF0-970E-416150BC9D72}
+	EndGlobalSection
+EndGlobal
